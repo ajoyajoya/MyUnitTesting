@@ -6,7 +6,7 @@ public class MainPresenter {
         this.view = view;
     }
     public double volume(double length, double width, double height) {
-        return length / width * height;
+        return length * width * height;
     }
     public void calculateVolume(double length, double width, double height) {
         double volume = volume(length, width, height);
